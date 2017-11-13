@@ -12,7 +12,6 @@ package sqlite3
 #cgo CFLAGS: -DSQLITE_TRACE_SIZE_LIMIT=15
 #cgo CFLAGS: -DSQLITE_ENABLE_UPDATE_DELETE_LIMIT=1
 #cgo CFLAGS: -DSQLITE_DISABLE_INTRINSIC
-#cgo CFLAGS: -DUSE_LIBSQLITE3
 #cgo CFLAGS: -Wno-deprecated-declarations
 #ifndef USE_LIBSQLITE3
 #include <sqlite3-binding.h>
